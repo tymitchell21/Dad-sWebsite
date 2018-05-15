@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HCH Pain</title>
+	<link href="BlogPostAssets/styles/blogPostStyle.css" rel="stylesheet" type="text/css">
+
+	<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+	
+	<script>
+		function initMap() {
+			var uluru = {lat: 39.762, lng: -86.5019};
+			var map = new google.maps.Map(document.getElementById('map'), {
+			  zoom: 12,
+			  center: uluru
+			});
+			var marker = new google.maps.Marker({
+			  position: uluru,
+			  map: map
+			});
+		}
+	</script>
+	
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYHrhYYRu9MwF2gQWEEGnfmnt1x1fBEOU&callback=initMap">
+    </script>
+</head>
+
+<body>
+<div id="mainwrapper">
+  <header> 
+    <!--Header-->
+    <div id="logo"><a class="logoA" href="index.html">Hendricks County Pain Specialist</a></div>
+    <nav> <a class="nav" href="subSites/about.html" title="About">About Dr. Ward</a> <a class="nav" href="subSites/treatments.html" title="Treatments">Treatments</a><a class="nav" href="subSites/patients.html" title="Patients">Patients</a> </nav>
+  </header>
+  <div id="content">
+    <section id="mainContent"> 
+      <!--Main-->
+      <h1>Hendricks Regional Health</h1>
+      <h3>Dr. Ward's Pain Clinic</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+	  <div id="map" onload="initMap()"></div>
+    </section>
+    <section id="sidebar"> 
+      <!--************************************************************************
+    Sidebar starts here.
+    ****************************************************************************-->
+      <div id="adimage"><img src="BlogPostAssets/images/dad.jpg" alt=""/></div>
+      <nav>
+        <ul>
+          <li><a href="subSites/about.html" title="About">About Dr. Ward</a></li>
+          <li><a href="subSites/treatments.html" title="Treatments">Treatments</a></li>
+          <li><a href="subSites/patients.html" title="Patients">Patients</a></li>
+        </ul>
+      </nav>
+    </section>
+    
+  </div>
+</div>
+<div class="copyright">&copy;2018 - <strong>Site by Tyler Ward</strong></div>
+</body>
+</html>
